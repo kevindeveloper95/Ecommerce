@@ -3,6 +3,10 @@ import dotenv from "dotenv";
 dotenv.config();
 import products from './data/products.js';
 import { request } from 'http'
+import conectDB from './config/db.js';
+
+
+conectDB();
 
 const port = process.env.PORT || 5000
 
