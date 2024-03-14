@@ -1,15 +1,13 @@
 import express, { response } from 'express';
 import dotenv from "dotenv";
-dotenv.config();
-import { request } from 'http'
 import conectDB from './config/db.js';
 import productRoutes from './routes/productRoutes.js';
 import { notFound, errorHandler } from './middlewares/errorMiddlewares.js';
 
-
+dotenv.config();
 conectDB();
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 6000
 
 const app = express();
 
@@ -24,4 +22,4 @@ app.use(errorHandler);
 
 
 
-app.listen(port, () => console.log("Server working in port 5000"))
+app.listen(port, () => console.log("Server working in port 6000"))

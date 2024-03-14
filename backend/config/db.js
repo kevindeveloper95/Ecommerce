@@ -2,6 +2,7 @@ import mongoose, { connect } from "mongoose";
 
 
 
+
 const conectDB = async () =>{
     try {
        const conn = await mongoose.connect(process.env.MONGO_URI,)
