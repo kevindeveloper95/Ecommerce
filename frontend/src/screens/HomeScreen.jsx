@@ -1,5 +1,6 @@
 import React from 'react'
-import { Col, Row } from "react-bootstrap";
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
 import { useGetProductsQuery } from '../slices/productSlice';
 import Product from '../components/product';
 import Loader from '../components/Loader';
@@ -30,7 +31,9 @@ const HomeScreen = () => {
                 <Product product={product} />
               </Col>
             ))}
+           
           </Row>
+        
         </>
       )}
     </>

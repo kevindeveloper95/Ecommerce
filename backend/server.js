@@ -7,7 +7,7 @@ import { notFound, errorHandler } from './middlewares/errorMiddlewares.js';
 dotenv.config();
 conectDB();
 
-const port = process.env.PORT || 6000
+const port = process.env.PORT || 5000
 
 const app = express();
 
@@ -22,4 +22,4 @@ app.use(errorHandler);
 
 
 
-app.listen(port, () => console.log("Server working in port 6000"))
+app.listen(port, () => console.log("Server working in port 5000"))
