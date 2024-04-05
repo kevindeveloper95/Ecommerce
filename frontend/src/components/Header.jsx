@@ -35,7 +35,7 @@ const Header = () => {
         <LinkContainer to="/">
         <Navbar.Brand>
           <img src={logo} alt=''></img>
-          ProShop</Navbar.Brand>
+          Techshoot</Navbar.Brand>
           </LinkContainer>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
@@ -71,7 +71,7 @@ const Header = () => {
               <LinkContainer to='/admin/productlist'>
                 <NavDropdown.Item>Products</NavDropdown.Item>
               </LinkContainer>
-              <LinkContainer to='/admin/userslist'>
+              <LinkContainer to='/admin/userlist'>
                 <NavDropdown.Item>Users</NavDropdown.Item>
               </LinkContainer>
               <LinkContainer to='/admin/orderlist'>

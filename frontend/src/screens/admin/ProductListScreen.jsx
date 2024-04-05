@@ -39,11 +39,8 @@ const ProductListScreen = () => {
   const createProductHandler = async () => {
     if (window.confirm('Are you sure you want to create a new product?')) {
       try {
-        console.log('11111111111111111')
         await createProduct();
-        console.log('2222222222222222')
         refetch();
-        console.log('333333333333333333')
       } catch (err) {
         toast.error(err?.data?.message || err.error);
       }
