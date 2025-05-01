@@ -68,7 +68,33 @@ Esta plataforma está pensada tanto para consumidores finales como para personas
    ```bash
    npm run dev
    ```
+## 🧪 Test de Pagos
 
+Puedes realizar pruebas de pago con tarjeta de crédito o con una cuenta PayPal sandbox. Estas pruebas son completamente seguras y no implican transacciones reales.
+
+### 💳 Prueba con Tarjeta de Crédito (Modo Sandbox)
+Usa los siguientes datos para simular un pago exitoso con tarjeta de crédito:
+
+- **Número de Tarjeta:** `4037 0793 8466 0505`
+- **Fecha de Expiración:** `03/2029`
+- **Código CVC:** Cualquier combinación de 3 dígitos (ej. `123`)
+
+> ⚠️ Este número de tarjeta es solo para entornos de prueba.
+
+---
+
+### 🧑‍💻 Prueba con Cuenta de Cliente PayPal (Sandbox)
+
+Puedes usar esta cuenta simulada de PayPal para realizar pagos en la aplicación:
+
+- **Email:** `sb-dibjl30189888@personal.example.com`
+- **Contraseña:** `8+AfZ(2e`
+
+> Asegúrate de estar usando el entorno sandbox de PayPal en la configuración del backend y frontend.
+
+---
+
+Si necesitas ayuda para configurar el entorno de pruebas o realizar las integraciones, no dudes en consultarme.
 ---
 
 ## 📁 Estructura del proyecto
